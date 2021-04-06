@@ -1,6 +1,6 @@
-let cn = prompt("nhập cân nặng (kg)")
-let cc = prompt("nhập chiều cao (m)")
-BMI = cn / (cc * cc)
+let cn = prompt("nhập cân nặng (kg)");
+let cc = prompt("nhập chiều cao (m)");
+BMI = cn / (cc * cc);
 if (BMI < 18.5) {
     alert("Gầy")
 } else {
@@ -15,6 +15,6 @@ if (BMI < 18.5) {
     } else if (BMI >= 40) {
         alert("Nguy hiểm")
     }
-}
+};
 
 
